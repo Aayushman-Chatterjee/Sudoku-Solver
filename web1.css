@@ -1,0 +1,96 @@
+h1{
+	position:relative;
+	left:375px;
+	text-align:center;
+	width:530px;
+	height:70px;
+	background-color:rgb(212, 226, 218);
+	color:rgb(37, 64, 80);
+	text-decoration-style:solid;
+	font-family:Arial;
+	font-size:30px;
+}
+h4{
+	width:18px;
+	height:18px;
+	padding:5px;
+	border:2px solid rgba(37, 64, 80,0.5);
+	margin:2px;
+	font-family:Arial;
+	color:rgb(37, 64, 80);
+	text-shadow:1.5px 1px rgba(37, 64, 80,0.5);
+	text-align:center;	
+}
+.grid-container {
+  width:38%;
+  /*height:40%;*/
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  background-color: rgb(18, 86, 80);
+  padding: 5px;
+  grid-gap:1px;
+}
+.grid-item {
+  background-color:rgb(212, 226, 218);
+  border: 1px solid rgba(212, 226, 218,0.5);
+  font-size: 15px;
+  text-align: center;
+}
+body{
+		background-color:rgba(104, 198, 80,0.8)
+}	
+ol {
+  border-left: 5px solid red;
+  background-color: rgb(37, 64, 80);
+  list-style-type: none;
+  padding: 10px 20px;
+  background: rgb(37, 64, 80,0.8);
+  font-family:Arial;
+  width:300px;
+}
+ol li {
+  background: rgb(212, 226, 218);
+  margin: 5px;
+  color:rgb(37, 64, 80);
+}
+h2{
+	font-family:Arial;
+	font-size:20px;
+	font-weight:small;
+	color:rgb(37, 64, 80);
+	width:345px;
+	height:50px;
+	background-color:rgb(212, 226, 218);
+	text-align:center;
+}
+#c2{
+	width:1000px;
+	margin:5px;
+	
+}
+#c1{
+	width:300px;
+	margin:5px;
+}
+textarea{
+	width:18px;
+	height:18px;
+	text-decoration-style:underline;
+}
+hr{
+	background-color:rgba(255,10,10,0.5);
+	height:2px;
+}
+button{
+	float:right;
+	background-color:rgba(255,10,10,0.9);
+	color:rgb(255, 255, 255);
+	height:30px;
+	width:60px;
+	font-family:Arial;
+	font-weight:small;
+}
+.mytext{
+    width: 18px;
+}
+

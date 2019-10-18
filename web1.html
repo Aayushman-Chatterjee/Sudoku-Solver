@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="web1.css">
+</head>
+<body>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<script type="text/javascript" src="web1.js"></script>
+<h1>Sudoku :Solve Online</h1>
+<table>
+<tr>
+<td id="c1">
+<p><h2><b>Instructions</b></h2>
+<ol>
+	<li>Each of the nine blocks has to contain all the numbers 1-9 within its squares</li>
+	<li>Each number can only appear once in a row, column or box</li>
+	<li>Each vertical nine-square column, or horizontal nine-square line across, within the larger square, must also contain the numbers 1-9, without repetition or omission.</li>
+</ol>
+</td>
+<td id="c2">
+<div class="grid-container">
+  <div class="grid-item">
+	<table>
+		<tr>
+			<td><h4>5</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext" /> </h4></td>
+			<td><h4>9</h4></td>		
+		</tr>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>8</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>3</h4></td>		
+		</tr>
+	</table>
+  </div>
+  <div class="grid-item">
+   <table>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>1</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>8</h4></td>
+			<td><h4>4</h4></td>		
+		</tr>
+	</table>
+  </div>
+  <div class="grid-item">
+  <table>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>7</h4></td>		
+		</tr>
+		<tr>
+			<td><h4>5</h4></td>
+			<td><h4>2</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>1</h4></td>		
+		</tr>
+	</table>
+  </div>  
+  <div class="grid-item">
+  <table>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>9</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4>4</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4>8</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>2</h4></td>		
+		</tr>
+	</table>
+  </div>
+  <div class="grid-item">
+  <table>
+		<tr>
+			<td><h4>7</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>5</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4>1</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+	</table>  
+  </div>
+  <div class="grid-item">
+  <table>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>2</h4></td>		
+		</tr>
+		<tr>
+			<td><h4>3</h4></td>
+			<td><h4>9</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>4</h4></td>		
+		</tr>
+	</table>
+  </div>  
+  <div class="grid-item">
+  <table>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>4</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4>1</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>7</h4></td>		
+		</tr>
+	</table>
+  </div>
+  <div class="grid-item">
+  <table>
+		<tr>
+			<td><h4>3</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>2</h4></td>		
+		</tr>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>9</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+	</table>
+  </div>
+  <div class="grid-item">
+  <table>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>5</h4></td>		
+		</tr>
+		<tr>
+			<td><h4>7</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+		<tr>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>
+			<td><h4>8</h4></td>
+			<td><h4><input type="text" id="elem" name="elem" class="mytext"  /></h4></td>		
+		</tr>
+	</table>
+  </div>  
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
